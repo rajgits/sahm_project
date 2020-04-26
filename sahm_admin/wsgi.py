@@ -23,7 +23,7 @@ https://docs.djangoproject.com/en/3.0/howto/deployment/wsgi/
 
 import os
 from django.core.wsgi import get_wsgi_application
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hellodjango.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "sahm_admin.settings")
 from dj_static import Cling
 application = Cling(get_wsgi_application())
 
